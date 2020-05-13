@@ -27,16 +27,18 @@ TODO: 설명 더 적기
 ## Knuth's Algorithm X
 Exact cover 문제를 푸는데 가장 많이 사용되는 알고리즘 중 하나로 Knuth's Algorithm X가 있다. Knuth's Algorithm X의 단계들을 C++으로 나타내면 다음과 같다. 직접 컴퓨터에서 실행시키기 위해서는 더 많은 작업을 해야 하지만, 우선 알고리즘이 어떤 단계로 실행되는지를 살펴본다는 생각으로 코드를 보자.
 ```c++
-Matrix mat = construct_matrix()
-Solution sol = empty_solution()
+Matrix mat = construct_matrix();
+Solution sol = empty_solution();
 
 void knuth_x() {
   if (mat.empty()) {
+    print_solution();
+    return;
   }
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMzMDkwNTczLC04ODM1NjAzNjcsMjQyMz
-E2NzU2LC05OTc0NDQwMTIsLTk2OTQxNDg2MCwtOTk3NDQ0MDEy
-LC0zNTgyMDIzNjksMTQ3NzAwNjQ3N119
+eyJoaXN0b3J5IjpbMjA4MDc4ODY5NSwtODgzNTYwMzY3LDI0Mj
+MxNjc1NiwtOTk3NDQ0MDEyLC05Njk0MTQ4NjAsLTk5NzQ0NDAx
+MiwtMzU4MjAyMzY5LDE0NzcwMDY0NzddfQ==
 -->
