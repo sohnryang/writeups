@@ -27,8 +27,8 @@ TODO: 설명 더 적기
 ## Knuth's Algorithm X
 Exact cover 문제를 푸는데 가장 많이 사용되는 알고리즘 중 하나로 Knuth's Algorithm X가 있다. Knuth's Algorithm X의 단계들을 파이썬으로 나타내면 다음과 같다. 직접 컴퓨터에서 실행시키기 위해서는 더 많은 작업을 해야 하지만, 우선 알고리즘이 어떤 단계로 실행되는지를 살펴본다는 생각으로 코드를 보자.
 ```python
-mat = construct_matrix()
-solution = empty_solution()
+mat = construct_matrix() # Exact cover 문제를 행렬로 나타낸 것
+solution = empty_solution() # 현재까지 계산한 문제의 해
 def knuth_x(k):
     if mat.empty():
         print_solution()
@@ -36,7 +36,7 @@ def knuth_x(k):
     
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwNjczNTcxLDI0MjMxNjc1NiwtOTk3ND
-Q0MDEyLC05Njk0MTQ4NjAsLTk5NzQ0NDAxMiwtMzU4MjAyMzY5
-LDE0NzcwMDY0NzddfQ==
+eyJoaXN0b3J5IjpbLTg4MzU2MDM2NywyNDIzMTY3NTYsLTk5Nz
+Q0NDAxMiwtOTY5NDE0ODYwLC05OTc0NDQwMTIsLTM1ODIwMjM2
+OSwxNDc3MDA2NDc3XX0=
 -->
