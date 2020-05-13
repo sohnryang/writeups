@@ -37,11 +37,12 @@ def knuth_x():
     c = mat.choose_column(deterministic=True)
     r = mat.choose_row(deterministic=False)
     sol.append(r)
-    for j in [x if A[r][x] == 1 for x in A[r]]:
-        mat.del
+    for j in [x if mat[r][x] == 1 for x in range(len(A[r]))]:
+        mat.delete_column(j)
+        for i in [x if A[x][j] == 1 for x in range(len(A))]:
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTkxMDMxMDksLTg4MzU2MDM2NywyND
-IzMTY3NTYsLTk5NzQ0NDAxMiwtOTY5NDE0ODYwLC05OTc0NDQw
-MTIsLTM1ODIwMjM2OSwxNDc3MDA2NDc3XX0=
+eyJoaXN0b3J5IjpbMTMyNDE5MzAzNSwtODgzNTYwMzY3LDI0Mj
+MxNjc1NiwtOTk3NDQ0MDEyLC05Njk0MTQ4NjAsLTk5NzQ0NDAx
+MiwtMzU4MjAyMzY5LDE0NzcwMDY0NzddfQ==
 -->
