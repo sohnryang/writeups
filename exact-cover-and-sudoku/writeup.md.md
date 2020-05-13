@@ -34,10 +34,13 @@ def knuth_x():
     if mat.empty():
         print_solution(sol)
         return
-    choose_row(
+    c = mat.choose_column(deterministic=True)
+    r = mat.choose_row(deterministic=False)
+    sol.append(r)
+    
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3NzY3NTY4MSwtODgzNTYwMzY3LDI0Mj
-MxNjc1NiwtOTk3NDQ0MDEyLC05Njk0MTQ4NjAsLTk5NzQ0NDAx
-MiwtMzU4MjAyMzY5LDE0NzcwMDY0NzddfQ==
+eyJoaXN0b3J5IjpbLTQyNjc2MDQ2LC04ODM1NjAzNjcsMjQyMz
+E2NzU2LC05OTc0NDQwMTIsLTk2OTQxNDg2MCwtOTk3NDQ0MDEy
+LC0zNTgyMDIzNjksMTQ3NzAwNjQ3N119
 -->
