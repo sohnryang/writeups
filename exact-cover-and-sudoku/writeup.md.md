@@ -45,8 +45,9 @@ print_solution(sol)
 
 ## 더 읽을거리
 - [Dancing Links 원 논문](https://arxiv.org/pdf/cs/0011047.pdf): 이 글에서 설명하는 Knuth's Algorithm X, Dancing Links, DLX와 그 활용을 다룬 논문이다.
+- [백준 3763번 스도쿠]()
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE4MDkzODIsLTg4MzU2MDM2NywyNDIzMT
-Y3NTYsLTk5NzQ0NDAxMiwtOTY5NDE0ODYwLC05OTc0NDQwMTIs
-LTM1ODIwMjM2OSwxNDc3MDA2NDc3XX0=
+eyJoaXN0b3J5IjpbODE5NTYwMDg0LC04ODM1NjAzNjcsMjQyMz
+E2NzU2LC05OTc0NDQwMTIsLTk2OTQxNDg2MCwtOTk3NDQ0MDEy
+LC0zNTgyMDIzNjksMTQ3NzAwNjQ3N119
 -->
