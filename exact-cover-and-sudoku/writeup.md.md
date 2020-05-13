@@ -41,9 +41,12 @@ while not mat.empty()
 print_solution(sol)
 ```
 
-[1] 여기 나온 파이썬 코드는 Donald Knuth의 Dancing Links 논문에 나온 Knuth's Algorithm X의 의사코드를 파이썬으로만 옮긴 것이다.
+[1] 여기 나온 파이썬 코드는 [Donald Knuth의 Dancing Links 논문](https://arxiv.org/pdf/cs/0011047.pdf)에 나온 Knuth's Algorithm X의 의사코드를 파이썬으로 옮기기만 한 것이다.
+
+## 더 읽을거리
+- [Dancing Links 원 논문](https://arxiv.org/pdf/cs/0011047.pdf): 이 글에서 다루는 Knuth's Algorithm X, Dancing Linksㄹ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5NzgxMjc4OSwtODgzNTYwMzY3LDI0Mj
+eyJoaXN0b3J5IjpbMjE0NTY3MTUyOSwtODgzNTYwMzY3LDI0Mj
 MxNjc1NiwtOTk3NDQ0MDEyLC05Njk0MTQ4NjAsLTk5NzQ0NDAx
 MiwtMzU4MjAyMzY5LDE0NzcwMDY0NzddfQ==
 -->
