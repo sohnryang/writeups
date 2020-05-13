@@ -1,6 +1,6 @@
 # Exact Cover와 스도쿠
 
-[스도쿠](https://en.wikipedia.org/wiki/Sudoku)는 널리 알려진 논리 퍼즐 중 하나로, 9 x 9 (또는 16 x 16) 표에 정해진 규칙대로 숫자를 채워 넣는 퍼즐이다. 
+[스도쿠](https://en.wikipedia.org/wiki/Sudoku)는 널리 알려진 논리 퍼즐 중 하나로, 9 x 9 (또는 16 x 16) 표에 정해진 규칙대로 숫자를 채워 넣는 퍼즐이다. 스도쿠는 
 
 ## Exact Cover 문제
 
@@ -26,5 +26,5 @@ TODO: 설명 더 적기
 ## Knuth's Algorithm X
 Exact cover 문제를 풀기 위해서는 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1ODIwMjM2OV19
+eyJoaXN0b3J5IjpbMjE1MjE2ODQzXX0=
 -->
