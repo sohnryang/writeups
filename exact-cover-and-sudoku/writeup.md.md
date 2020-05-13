@@ -27,10 +27,11 @@ TODO: 설명 더 적기
 ## Knuth's Algorithm X
 Exact cover 문제를 푸는데 가장 많이 사용되는 알고리즘 중 하나로 Knuth's Algorithm X가 있다. Knuth's Algorithm X의 단계들을 파이썬으로 나타내면 다음과 같다.
 ```python
+mat = construct_matrix()
 def knuth_x(
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzM1NzA3NTMsMjQyMzE2NzU2LC05OT
-c0NDQwMTIsLTk2OTQxNDg2MCwtOTk3NDQ0MDEyLC0zNTgyMDIz
-NjksMTQ3NzAwNjQ3N119
+eyJoaXN0b3J5IjpbNjE2OTcyMjg2LDI0MjMxNjc1NiwtOTk3ND
+Q0MDEyLC05Njk0MTQ4NjAsLTk5NzQ0NDAxMiwtMzU4MjAyMzY5
+LDE0NzcwMDY0NzddfQ==
 -->
