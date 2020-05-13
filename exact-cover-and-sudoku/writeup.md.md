@@ -25,9 +25,9 @@ TODO: 설명 더 적기
 하지만 이러한 방식으로 백트래킹을 할 경우, 얼마든지 이 알고리즘으로 푸는 것이 어려운 스도쿠를 만들 수 있다. 예를 들어, 만약 스도쿠의 맨 윗줄에서의 답이 987654321과 같은 순서라면 이 알고리즘의 경우 1부터 9까지, 1부터 8까지, ..., 1부터 2까지 한 줄의 답을 알기 위해 많은 연산을 해야 한다. 백트래킹 알고리즘에서는 효율적인 탐색 전략이 필요하다.
 
 ## Knuth's Algorithm X
-Exact cover 문제를 푸는데 가장 많이 사용되는 알고리즘 중 하나로 Knuth's Algorithm X가 있다.
+Exact cover 문제를 푸는데 가장 많이 사용되는 알고리즘 중 하나로 Knuth's Algorithm X가 있다. Knuth's Algorithm X를 사용하
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ4MjgxMTI5LDI0MjMxNjc1NiwtOTk3ND
-Q0MDEyLC05Njk0MTQ4NjAsLTk5NzQ0NDAxMiwtMzU4MjAyMzY5
-LDE0NzcwMDY0NzddfQ==
+eyJoaXN0b3J5IjpbLTI3ODY0OTA3NSwyNDIzMTY3NTYsLTk5Nz
+Q0NDAxMiwtOTY5NDE0ODYwLC05OTc0NDQwMTIsLTM1ODIwMjM2
+OSwxNDc3MDA2NDc3XX0=
 -->
