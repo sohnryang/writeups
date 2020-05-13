@@ -41,13 +41,16 @@ while not mat.empty()
 print_solution(sol)
 ```
 
-[1] 여기 나온 파이썬 코드는 [Donald Knuth의 Dancing Links 논문](https://arxiv.org/pdf/cs/0011047.pdf)에 나온 Knuth's Algorithm X의 의사코드를 파이썬으로 옮기기만 한 것이다.
-
 ## 더 읽을거리
 - [Dancing Links 원 논문](https://arxiv.org/pdf/cs/0011047.pdf): 이 글에서 설명하는 Knuth's Algorithm X, Dancing Links, DLX와 그 활용을 다룬 논문이다.
-- [백준 3763번 스도쿠](https://www.acmicpc.net/problem/3763): 백준 온라인 저지에 있는 다른 스도쿠 문제와는 달리, 이 문제는 16 x 16 스도쿠를 풀어야 하기 때문에 여기에 설명된 방법만을 사용해야 시간 제한 내에 해결할 수 있다.
+- [백준 3763번 스도쿠](https://www.acmicpc.net/problem/3763): 백준 온라인 저지에 있는 다른 스도쿠 문제와는 달리, 이 문제는 16 x 16 스도쿠를 풀어야 하기 때문에 여기에 설명된 방법만을 사용해야 시간 제한 내에 해결할 수 있다.[2]
+
+## 각주
+[1] 여기 나온 파이썬 코드는 [Donald Knuth의 Dancing Links 논문](https://arxiv.org/pdf/cs/0011047.pdf)에 나온 Knuth's Algorithm X의 의사코드를 파이썬으로 옮기기만 한 것이다.
+
+[2] 문제를 풀고 싶다면, 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3MDk2MTkyLC04ODM1NjAzNjcsMjQyMz
-E2NzU2LC05OTc0NDQwMTIsLTk2OTQxNDg2MCwtOTk3NDQ0MDEy
-LC0zNTgyMDIzNjksMTQ3NzAwNjQ3N119
+eyJoaXN0b3J5IjpbLTk2MjMxNjI2NywtODgzNTYwMzY3LDI0Mj
+MxNjc1NiwtOTk3NDQ0MDEyLC05Njk0MTQ4NjAsLTk5NzQ0NDAx
+MiwtMzU4MjAyMzY5LDE0NzcwMDY0NzddfQ==
 -->
