@@ -25,18 +25,18 @@ TODO: 설명 더 적기
 하지만 이러한 방식으로 백트래킹을 할 경우, 얼마든지 이 알고리즘으로 푸는 것이 어려운 스도쿠를 만들 수 있다. 예를 들어, 만약 스도쿠의 맨 윗줄에서의 답이 987654321과 같은 순서라면 이 알고리즘의 경우 1부터 9까지, 1부터 8까지, ..., 1부터 2까지 한 줄의 답을 알기 위해 많은 연산을 해야 한다. 백트래킹 알고리즘에서는 효율적인 탐색 전략이 필요하다.
 
 ## Knuth's Algorithm X
-Exact cover 문제를 푸는데 가장 많이 사용되는 알고리즘 중 하나로 Knuth's Algorithm X가 있다. Knuth's Algorithm X의 단계들을 파이썬으로 나타내면 다음과 같다. 직접 컴퓨터에서 실행시키기 위해서는 더 많은 작업을 해야 하지만, 우선 알고리즘이 어떤 단계로 실행되는지를 살펴본다는 생각으로 코드를 보자.
-```python
-mat = construct_matrix() # Exact cover 문제를 행렬로 나타낸 것
-solution = empty_solution() # 현재까지 계산한 문제의 해
-def knuth_x(k):
-    if mat.empty():
-        print_solution()
-        return
-    
+Exact cover 문제를 푸는데 가장 많이 사용되는 알고리즘 중 하나로 Knuth's Algorithm X가 있다. Knuth's Algorithm X의 단계들을 C++으로 나타내면 다음과 같다. 직접 컴퓨터에서 실행시키기 위해서는 더 많은 작업을 해야 하지만, 우선 알고리즘이 어떤 단계로 실행되는지를 살펴본다는 생각으로 코드를 보자.
+```c++
+Matrix mat = construct_matrix()
+Solution sol = empty_solution()
+
+void knuth_x() {
+  if (mat.empty()) {
+  }
+}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MzU2MDM2NywyNDIzMTY3NTYsLTk5Nz
-Q0NDAxMiwtOTY5NDE0ODYwLC05OTc0NDQwMTIsLTM1ODIwMjM2
-OSwxNDc3MDA2NDc3XX0=
+eyJoaXN0b3J5IjpbNTMzMDkwNTczLC04ODM1NjAzNjcsMjQyMz
+E2NzU2LC05OTc0NDQwMTIsLTk2OTQxNDg2MCwtOTk3NDQ0MDEy
+LC0zNTgyMDIzNjksMTQ3NzAwNjQ3N119
 -->
