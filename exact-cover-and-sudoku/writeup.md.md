@@ -1,6 +1,5 @@
-# Exact Cover와 스도쿠
 
-[스도쿠](https://en.wikipedia.org/wiki/Sudoku)는 널리 알려진 논리 퍼즐 중 하나로, 9 x 9 (또는 16 x 16) 표에 정해진 규칙대로 숫자를 채워 넣는 퍼즐이다. 스도쿠는 규칙이 간단하고, 
+[스도쿠](https://en.wikipedia.org/wiki/Sudoku)는 널리 알려진 논리 퍼즐 중 하나로, 9 x 9 (또는 16 x 16) 표에 정해진 규칙대로 숫자를 채워 넣는 퍼즐이다. 
 
 ## Exact Cover 문제
 
@@ -10,7 +9,7 @@ Exact cover는 집합 X의 부분집합들이 있을 때, 이 중 몇 개를 골
 
 $$N=\\left\\{1, 2, 4\\right\\}, O=\\left\\{1, 3\\right\\}, P=\\left\\{2, 3\\right\\}, E=\\left\\{2, 4\\right\\}$$
 
-이때 \\(O\\)와 \\(E\\)를 고르면, \\(O\\cup E=X\\)이고, \\(O\\cap E=\varnothing\\)이므로 \\(O\\)와 \\(E\\)를 고르는 조합은 답이 된다. 반면, \\(N\\cup P=X\\)이지만, \\(N\\cap P\neq\varnothing\\)이므로 \\(N\\)과 \\(P\\)를 고르는 조합은 답이 될 수 없다. 이 문제를 컴퓨터가 풀게 하기 위해서는, 문제를 푸는 과정을 알고리즘으로 나타내어야 한다.
+이때 \\(O\\)와 \\(E\\)를 고르면, \\(O\\cup E=X\\)이고, \\(O\\cap E=\\varnothing\\)이므로 \\(O\\)와 \\(E\\)를 고르는 조합은 답이 된다. 반면, \\(N\\cup P=X\\)이지만, \\(N\\cap P\\neq\\varnothing\\)이므로 \\(N\\)과 \\(P\\)를 고르는 조합은 답이 될 수 없다. 이 문제를 컴퓨터가 풀게 하기 위해서는, 문제를 푸는 과정을 알고리즘으로 나타내어야 한다.
 
 ## 백트래킹
 Exact cover는 [NP-완비](https://en.wikipedia.org/wiki/Np-complete) 문제이므로, 이 문제를 풀기 위해서는 모든 경우의 수를 시도해 보는 방법으로밖에 해결할 수 없다. 이러한 형태의 알고리즘 중에 대표적인 것으로 백트래킹 알고리즘이 있다. 백트래킹 알고리즘은 가능한 해를 반복적으로 만드는데, 만약 만들어낸 해가 적합하지 않다는 것이 판정되면 즉시 중단하고 다음 해로 넘어간다. 이렇게 설명하면 이해하기 힘드므로, 이 글에서 다루는 스도쿠로 예를 들어 보자.
@@ -24,9 +23,9 @@ TODO: 설명 더 적기
 하지만 이러한 방식으로 백트래킹을 할 경우, 얼마든지 이 알고리즘으로 푸는 것이 어려운 스도쿠를 만들 수 있다. 예를 들어, 만약 스도쿠의 맨 윗줄에서의 답이 987654321과 같은 순서라면 이 알고리즘의 경우 1부터 9까지, 1부터 8까지, ..., 1부터 2까지 한 줄의 답을 알기 위해 많은 연산을 해야 한다. 백트래킹 알고리즘에서는 효율적인 탐색 전략이 필요하다.
 
 ## Knuth's Algorithm X
-Exact cover 문제를 풀기 위해서는 
+Exact cover 문제를 푸는데 가장 많이 사용되는 알고리즘 중 하나로 Knuth's Algorithm X가 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQyMzE2NzU2LC05OTc0NDQwMTIsLTk2OT
-QxNDg2MCwtOTk3NDQ0MDEyLC0zNTgyMDIzNjksMTQ3NzAwNjQ3
-N119
+eyJoaXN0b3J5IjpbMTMyNzI1ODkxMCwyNDIzMTY3NTYsLTk5Nz
+Q0NDAxMiwtOTY5NDE0ODYwLC05OTc0NDQwMTIsLTM1ODIwMjM2
+OSwxNDc3MDA2NDc3XX0=
 -->
