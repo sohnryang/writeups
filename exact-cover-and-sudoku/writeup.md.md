@@ -34,10 +34,10 @@ def knuth_x():
     if mat.empty():
         print_solution(sol)
         return
-    
+    choose_row(
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2MDIyNzg1NywtODgzNTYwMzY3LDI0Mj
+eyJoaXN0b3J5IjpbLTM3NzY3NTY4MSwtODgzNTYwMzY3LDI0Mj
 MxNjc1NiwtOTk3NDQ0MDEyLC05Njk0MTQ4NjAsLTk5NzQ0NDAx
 MiwtMzU4MjAyMzY5LDE0NzcwMDY0NzddfQ==
 -->
