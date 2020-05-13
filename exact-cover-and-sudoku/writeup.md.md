@@ -30,19 +30,18 @@ Exact cover 문제를 푸는데 가장 많이 사용되는 알고리즘 중 하�
 mat = construct_matrix()
 sol = empty_solution()
 
-def knuth_x():
-    if mat.empty():
-        print_solution(sol)
-        return
+while not mat.empty()
     c = mat.choose_column(deterministic=True)
     r = mat.choose_row(deterministic=False)
     sol.append(r)
-    for j in [x if mat[r][x] == 1 for x in range(len(A[r]))]:
-        mat.delete_column(j)
-        for i in [x if A[x][j] == 1 for x in range(len(A))]:
+        for j in [x if mat[r][x] == 1 for x in range(len(mat[r]))]:
+            mat.delete_column(j)
+            for i in [x if mat[x][j] == 1 for x in range(len(mat))]:
+                mat.delete_row(i)
+    print_solution(sol)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyNDE5MzAzNSwtODgzNTYwMzY3LDI0Mj
+eyJoaXN0b3J5IjpbLTM2MjEwMzEwNiwtODgzNTYwMzY3LDI0Mj
 MxNjc1NiwtOTk3NDQ0MDEyLC05Njk0MTQ4NjAsLTk5NzQ0NDAx
 MiwtMzU4MjAyMzY5LDE0NzcwMDY0NzddfQ==
 -->
