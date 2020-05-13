@@ -48,9 +48,10 @@ print_solution(sol)
 ## 각주
 [1] 여기 나온 파이썬 코드는 [Donald Knuth의 Dancing Links 논문](https://arxiv.org/pdf/cs/0011047.pdf)에 나온 Knuth's Algorithm X의 의사코드를 파이썬으로 옮기기만 한 것이다.
 
-[2] 문제를 풀고 싶다면, 여기 나온 코드를 그대로 복붙하지는 않도록 하자. [치팅으로 탐지](https://www.acmicpc.net/help/rule)되어 며칠동안 정지당할 수도 있다. (애초에 문제를 
+[2] 문제를 풀고 싶다면, 여기 나온 코드를 그대로 복붙하지는 않도록 하자. [치팅으로 탐지](https://www.acmicpc.net/help/rule)되어 며칠동안 정지당할 수도 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5Njk2MTgzNywtOTYyMzE2MjY3LC04OD
-M1NjAzNjcsMjQyMzE2NzU2LC05OTc0NDQwMTIsLTk2OTQxNDg2
-MCwtOTk3NDQ0MDEyLC0zNTgyMDIzNjksMTQ3NzAwNjQ3N119
+eyJoaXN0b3J5IjpbLTEwNDA0NDU0MTMsLTk2MjMxNjI2NywtOD
+gzNTYwMzY3LDI0MjMxNjc1NiwtOTk3NDQ0MDEyLC05Njk0MTQ4
+NjAsLTk5NzQ0NDAxMiwtMzU4MjAyMzY5LDE0NzcwMDY0NzddfQ
+==
 -->
