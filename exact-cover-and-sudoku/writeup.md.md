@@ -25,8 +25,9 @@ TODO: 설명 더 적기
 하지만 이러한 방식으로 백트래킹을 할 경우, 얼마든지 이 알고리즘으로 푸는 것이 어려운 스도쿠를 만들 수 있다. 예를 들어, 만약 스도쿠의 맨 윗줄에서의 답이 987654321과 같은 순서라면 이 알고리즘의 경우 1부터 9까지, 1부터 8까지, ..., 1부터 2까지 한 줄의 답을 알기 위해 많은 연산을 해야 한다. 백트래킹 알고리즘에서는 효율적인 탐색 전략이 필요하다.
 
 ## Knuth's Algorithm X
-Exact cover 문제를 푸는데 가장 많이 사용되는 알고리즘 중 하나로 Knuth's Algorithm X가 있다. 여기서 한 번 알고리즘이 문제를 푸는 과정을 보자.
-Knuth's Algorithm X를 적용하기 위해서는 exact cover 문제를 행렬의 형태로 나타내어야 한다. 
+Exact cover 문제를 푸는데 가장 많이 사용되는 알고리즘 중 하나로 Knuth's Algorithm X가 있다. 위에서 다룬 exact cover 문제를 알고리즘으로 해결해 보자.
+우선 
+
 ## 더 읽을거리
 - [Dancing Links 원 논문](https://arxiv.org/pdf/cs/0011047.pdf): 이 글에서 설명하는 Knuth's Algorithm X, Dancing Links, DLX와 그 활용을 다룬 논문이다.
 - [백준 3763번 스도쿠](https://www.acmicpc.net/problem/3763): 백준 온라인 저지에 있는 다른 스도쿠 문제와는 달리, 이 문제는 16 x 16 스도쿠를 풀어야 하기 때문에 여기에 설명된 방법을 사용해야 시간 제한 내에 해결할 수 있다.[2]
@@ -36,8 +37,8 @@ Knuth's Algorithm X를 적용하기 위해서는 exact cover 문제를 행렬의
 
 [2] 문제를 풀고 싶다면, 여기 나온 코드를 그대로 복붙하지는 않도록 하자. [치팅으로 탐지](https://www.acmicpc.net/help/rule)되어 며칠동안 정지당할 수도 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzMTg2ODM3MSwtMTA0MDQ0NTQxMywtOT
-YyMzE2MjY3LC04ODM1NjAzNjcsMjQyMzE2NzU2LC05OTc0NDQw
-MTIsLTk2OTQxNDg2MCwtOTk3NDQ0MDEyLC0zNTgyMDIzNjksMT
-Q3NzAwNjQ3N119
+eyJoaXN0b3J5IjpbLTEyNTUxOTAyMzcsLTgzMTg2ODM3MSwtMT
+A0MDQ0NTQxMywtOTYyMzE2MjY3LC04ODM1NjAzNjcsMjQyMzE2
+NzU2LC05OTc0NDQwMTIsLTk2OTQxNDg2MCwtOTk3NDQ0MDEyLC
+0zNTgyMDIzNjksMTQ3NzAwNjQ3N119
 -->
