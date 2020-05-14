@@ -26,7 +26,7 @@ TODO: 설명 더 적기
 
 ## Knuth's Algorithm X
 Exact cover 문제를 푸는데 가장 많이 사용되는 알고리즘 중 하나로 Knuth's Algorithm X가 있다. 여기서 한 번 알고리즘이 문제를 푸는 과정을 보자.
-Knuth's Algorithm X를 저
+Knuth's Algorithm X를 적용하기 위해서는 exact cover 문제를 행렬의 형태로 나타내어야 한다. 
 ## 더 읽을거리
 - [Dancing Links 원 논문](https://arxiv.org/pdf/cs/0011047.pdf): 이 글에서 설명하는 Knuth's Algorithm X, Dancing Links, DLX와 그 활용을 다룬 논문이다.
 - [백준 3763번 스도쿠](https://www.acmicpc.net/problem/3763): 백준 온라인 저지에 있는 다른 스도쿠 문제와는 달리, 이 문제는 16 x 16 스도쿠를 풀어야 하기 때문에 여기에 설명된 방법을 사용해야 시간 제한 내에 해결할 수 있다.[2]
@@ -36,7 +36,7 @@ Knuth's Algorithm X를 저
 
 [2] 문제를 풀고 싶다면, 여기 나온 코드를 그대로 복붙하지는 않도록 하자. [치팅으로 탐지](https://www.acmicpc.net/help/rule)되어 며칠동안 정지당할 수도 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1NzU2MzAxNywtMTA0MDQ0NTQxMywtOT
+eyJoaXN0b3J5IjpbLTgzMTg2ODM3MSwtMTA0MDQ0NTQxMywtOT
 YyMzE2MjY3LC04ODM1NjAzNjcsMjQyMzE2NzU2LC05OTc0NDQw
 MTIsLTk2OTQxNDg2MCwtOTk3NDQ0MDEyLC0zNTgyMDIzNjksMT
 Q3NzAwNjQ3N119
