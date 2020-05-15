@@ -26,7 +26,7 @@ TODO: 설명 더 적기
 
 ## Knuth's Algorithm X
 Exact cover 문제를 푸는데 가장 많이 사용되는 알고리즘 중 하나로 Knuth's Algorithm X가 있다. 위에서 다룬 exact cover 문제를 알고리즘으로 해결해 보자.
-우선 
+우선 문제를 행렬 형태로 나타내어야 한다.
 
 ## 더 읽을거리
 - [Dancing Links 원 논문](https://arxiv.org/pdf/cs/0011047.pdf): 이 글에서 설명하는 Knuth's Algorithm X, Dancing Links, DLX와 그 활용을 다룬 논문이다.
@@ -37,8 +37,8 @@ Exact cover 문제를 푸는데 가장 많이 사용되는 알고리즘 중 하�
 
 [2] 문제를 풀고 싶다면, 여기 나온 코드를 그대로 복붙하지는 않도록 하자. [치팅으로 탐지](https://www.acmicpc.net/help/rule)되어 며칠동안 정지당할 수도 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTUxOTAyMzcsLTgzMTg2ODM3MSwtMT
-A0MDQ0NTQxMywtOTYyMzE2MjY3LC04ODM1NjAzNjcsMjQyMzE2
-NzU2LC05OTc0NDQwMTIsLTk2OTQxNDg2MCwtOTk3NDQ0MDEyLC
-0zNTgyMDIzNjksMTQ3NzAwNjQ3N119
+eyJoaXN0b3J5IjpbLTE3NTI5MDE0NjMsLTEyNTUxOTAyMzcsLT
+gzMTg2ODM3MSwtMTA0MDQ0NTQxMywtOTYyMzE2MjY3LC04ODM1
+NjAzNjcsMjQyMzE2NzU2LC05OTc0NDQwMTIsLTk2OTQxNDg2MC
+wtOTk3NDQ0MDEyLC0zNTgyMDIzNjksMTQ3NzAwNjQ3N119
 -->
