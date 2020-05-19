@@ -40,7 +40,7 @@ Exact cover 문제를 푸는데 가장 많이 사용되는 알고리즘 중 하�
 ### 0번째 재귀 호출
 1. 알고리즘이 시작되고, 행렬이 비어 있지 않으므로 계속한다.
 2. 우선 1이 있는, 가장 왼쪽에 있는 열을 고른다. (결정론적인 선택)
-3. 첫 열에서, 1이 있는 행은 `N`행과 `O`행이다. 이들에 대해 재귀 호출한다. (
+3. 첫 열에서, 1이 있는 행은 `N`행과 `O`행이다. 이들에 대해 재귀 호출한다. (비결정론적인 선택)
 4. 
 
 ## 더 읽을거리
@@ -54,6 +54,6 @@ Exact cover 문제를 푸는데 가장 많이 사용되는 알고리즘 중 하�
 
 [2] 문제를 풀고 싶다면, 여기 나온 코드를 그대로 복붙하지는 않도록 하자. [치팅으로 탐지](https://www.acmicpc.net/help/rule)되어 며칠동안 정지당할 수도 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDE1NzM4NTQsLTIxMzE5NjcwMDgsLT
-E0NTA5NzAzNjQsLTIwOTgyMjQzNDddfQ==
+eyJoaXN0b3J5IjpbLTIxODkzNTcyLC0yMTMxOTY3MDA4LC0xND
+UwOTcwMzY0LC0yMDk4MjI0MzQ3XX0=
 -->
