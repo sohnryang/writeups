@@ -36,9 +36,9 @@ Exact cover 문제를 푸는데 가장 많이 사용되는 알고리즘 중 하�
 |O|1|0|1|0|
 |P|0|1|1|0|
 |E|0|1|0|1|
-
-
-
+알고리즘은 재귀 함수의 형태로 구현되고, 최대한 이를 나타내어 보았다.
+### Recursion Level 1
+알고리즘이 시작되고, 
 
 ## 더 읽을거리
 
@@ -51,6 +51,6 @@ Exact cover 문제를 푸는데 가장 많이 사용되는 알고리즘 중 하�
 
 [2] 문제를 풀고 싶다면, 여기 나온 코드를 그대로 복붙하지는 않도록 하자. [치팅으로 탐지](https://www.acmicpc.net/help/rule)되어 며칠동안 정지당할 수도 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzE5NjcwMDgsLTE0NTA5NzAzNjQsLT
-IwOTgyMjQzNDddfQ==
+eyJoaXN0b3J5IjpbLTI3NzMxODY2LC0yMTMxOTY3MDA4LC0xND
+UwOTcwMzY0LC0yMDk4MjI0MzQ3XX0=
 -->
