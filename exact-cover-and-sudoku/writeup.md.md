@@ -55,11 +55,11 @@ Exact cover 문제를 푸는데 가장 많이 사용되는 알고리즘 중 하�
 
 [1] 여기 나온 파이썬 코드는 [Donald Knuth의 Dancing Links 논문](https://arxiv.org/pdf/cs/0011047.pdf)에 나온 Knuth's Algorithm X의 의사코드를 파이썬으로 옮기기만 한 것이다.
 
-[2] '캔디 크러쉬 사가'같은 게임
+[2] '캔디 크러쉬 사가'같은 게임을 플레이하는 느낌이 들 것이다.
 
 [3] 문제를 풀고 싶다면, 여기 나온 코드를 그대로 복붙하지는 않도록 하자. [치팅으로 탐지](https://www.acmicpc.net/help/rule)되어 며칠동안 정지당할 수도 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MjA2NDYwMSwxNjgwMzA4Mzc1LC04Mj
-IwMzgxNTAsLTIxMzE5NjcwMDgsLTE0NTA5NzAzNjQsLTIwOTgy
-MjQzNDddfQ==
+eyJoaXN0b3J5IjpbLTIxNDAzMDk1ODYsMTY4MDMwODM3NSwtOD
+IyMDM4MTUwLC0yMTMxOTY3MDA4LC0xNDUwOTcwMzY0LC0yMDk4
+MjI0MzQ3XX0=
 -->
