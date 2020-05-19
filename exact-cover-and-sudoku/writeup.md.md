@@ -44,8 +44,8 @@ Exact cover 문제를 푸는데 가장 많이 사용되는 알고리즘 중 하�
 4. 1번째 재귀 호출로 넘어간다,
 ### 1번째 재귀 호출: `N`행 처리
 1. 우선 `N`행을 부분적인 답에 추가한다.
-2. `N`행에는 1이 1, 3, 4열에 있다.
-3. 
+2. `N`행에는 1이 1, 3, 4열에 있고, 이 열들을 모두 지우면 행렬은 다음과 같다.
+
 
 ## 더 읽을거리
 
@@ -58,6 +58,7 @@ Exact cover 문제를 푸는데 가장 많이 사용되는 알고리즘 중 하�
 
 [2] 문제를 풀고 싶다면, 여기 나온 코드를 그대로 복붙하지는 않도록 하자. [치팅으로 탐지](https://www.acmicpc.net/help/rule)되어 며칠동안 정지당할 수도 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4MDMwODM3NSwtODIyMDM4MTUwLC0yMT
-MxOTY3MDA4LC0xNDUwOTcwMzY0LC0yMDk4MjI0MzQ3XX0=
+eyJoaXN0b3J5IjpbLTEyNzU1ODY5MTAsMTY4MDMwODM3NSwtOD
+IyMDM4MTUwLC0yMTMxOTY3MDA4LC0xNDUwOTcwMzY0LC0yMDk4
+MjI0MzQ3XX0=
 -->
