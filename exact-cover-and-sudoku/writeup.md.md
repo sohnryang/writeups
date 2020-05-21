@@ -46,6 +46,7 @@ Exact cover 문제를 푸는데 가장 많이 사용되는 알고리즘 중 하�
 1. 우선 `N`행을 부분적인 답에 추가한다.
 2. `N`행에는 1이 1, 3, 4열에 있고, 이 열들에 1을 가진 행들은 `O`, `P`, `E`이다.
 3. 이제 1, 3, 4 열과 `O`, `P`, `E` 행을 지우고, 행렬은 다음과 같이 바뀐다. [2]
+
 |  |  |
 |--|--|
 |  |  |
@@ -64,7 +65,7 @@ Exact cover 문제를 푸는데 가장 많이 사용되는 알고리즘 중 하�
 
 [3] 문제를 풀고 싶다면, 여기 나온 코드를 그대로 복붙하지는 않도록 하자. [치팅으로 탐지](https://www.acmicpc.net/help/rule)되어 며칠동안 정지당할 수도 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMzkyNDMwMiw1Mjg4MDc1NTAsMTY4MD
+eyJoaXN0b3J5IjpbMTA4MjMxMTIzNiw1Mjg4MDc1NTAsMTY4MD
 MwODM3NSwtODIyMDM4MTUwLC0yMTMxOTY3MDA4LC0xNDUwOTcw
 MzY0LC0yMDk4MjI0MzQ3XX0=
 -->
