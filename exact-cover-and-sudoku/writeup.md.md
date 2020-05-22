@@ -47,15 +47,15 @@ Exact cover 문제를 푸는데 가장 많이 사용되는 알고리즘 중 하�
 
 ## 더 읽을거리
 - [Dancing Links 원 논문](https://arxiv.org/pdf/cs/0011047.pdf): 이 글에서 설명하는 Knuth's Algorithm X, Dancing Links, DLX와 그 활용을 다룬 논문이다.
-- [Wikipedia Exact Cover]()
+- [Wikipedia Exact Cover](https://en.wikipedia.org/wiki/Exact_cover): 
 - [백준 3763번 스도쿠](https://www.acmicpc.net/problem/3763): 백준 온라인 저지에 있는 다른 스도쿠 문제와는 달리, 이 문제는 16 x 16 스도쿠를 풀어야 하기 때문에 여기에 설명된 방법을 사용해야 시간 제한 내에 해결할 수 있다.[^boj]
 
 [^candy]: '캔디 크러쉬 사가'같은 게임을 플레이하는 느낌이 들 것이다.
 
 [^boj]: 문제를 풀고 싶다면, 여기 나온 코드를 그대로 복붙하지는 않도록 하자. [치팅으로 탐지](https://www.acmicpc.net/help/rule)되어 며칠동안 정지당할 수도 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjUxNTMzNzk0LDE2MTQyNTU1NDEsMTA4Mj
-MxMTIzNiw1Mjg4MDc1NTAsMTY4MDMwODM3NSwtODIyMDM4MTUw
-LC0yMTMxOTY3MDA4LC0xNDUwOTcwMzY0LC0yMDk4MjI0MzQ3XX
-0=
+eyJoaXN0b3J5IjpbLTEzNjE4NTI4MTIsMTYxNDI1NTU0MSwxMD
+gyMzExMjM2LDUyODgwNzU1MCwxNjgwMzA4Mzc1LC04MjIwMzgx
+NTAsLTIxMzE5NjcwMDgsLTE0NTA5NzAzNjQsLTIwOTgyMjQzND
+ddfQ==
 -->
