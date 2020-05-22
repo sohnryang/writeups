@@ -38,16 +38,25 @@ Exact cover 문제를 푸는데 가장 많이 사용되는 알고리즘 중 하�
 ### 0번째 재귀 호출
 1. 알고리즘이 시작되고, 행렬이 비어 있지 않으므로 계속한다.
 2. 우선 1이 있는, 가장 왼쪽에 있는 열을 고른다. (결정론적인 선택)
-3. 첫 열에서, 1이 있는 행은 `N`행과 `O`행이다. 이들에 대해 재귀 호출한다. (비결정론적인 선택)
+3. 첫 열에서, 1이 있는 행은 `N`행과 `O`행이다. 이들에 대해 재귀 호출할 것이다. (비결정론적인 선택)
 4. 1번째 재귀 호출로 넘어간다.
 
 ### 1번째 재귀 호출: `N`행 처리
 1. 우선 `N`행을 부분적인 답에 추가한다.
 2. `N`행에는 1이 1, 3, 4열에 있고, 이 열들에 1을 가진 행들은 `O`, `P`, `E`이다. [^candy] 이 행과 열들을 모두 지운다.
+
+||1|2|3|4|
+|--|--|--|--|--|
+|N|**1**|0|**1**|**1**|
+|O|1|0|1|0|
+|P|0|1|1|0|
+|E|0|1|0|1|
+
 3. 행렬에는 행은 더이상 남아 있지 않지만, 2열이 남아 있고, 2열은 지울 수 있는 방법이 없다. 따라서 이 분기는 실패한다. 부분적인 답에서 `N`을 제거하고, 0번째 재귀 호출로 돌아간다.
 
 ### 0번째 재귀 호출
-1. 이제 `O`행을 부분적인 답에 추가한다
+1. 이제 `O`행을 부분적인 답에 추가한다.
+2. `O`행에는 
 
 ## 더 읽을거리
 - [Dancing Links 원 논문](https://arxiv.org/pdf/cs/0011047.pdf): 이 글에서 설명하는 Knuth's Algorithm X, Dancing Links, DLX와 그 활용을 다룬 논문이다.
@@ -58,8 +67,8 @@ Exact cover 문제를 푸는데 가장 많이 사용되는 알고리즘 중 하�
 
 [^boj]: 문제를 풀고 싶다면, 여기 나온 코드를 그대로 복붙하지는 않도록 하자. [치팅으로 탐지](https://www.acmicpc.net/help/rule)되어 며칠동안 정지당할 수도 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NzkxMDQ1MywtMTM2MTg1MjgxMiwxNj
-E0MjU1NTQxLDEwODIzMTEyMzYsNTI4ODA3NTUwLDE2ODAzMDgz
-NzUsLTgyMjAzODE1MCwtMjEzMTk2NzAwOCwtMTQ1MDk3MDM2NC
-wtMjA5ODIyNDM0N119
+eyJoaXN0b3J5IjpbLTEwNjM2MjY3MDEsLTEzNjE4NTI4MTIsMT
+YxNDI1NTU0MSwxMDgyMzExMjM2LDUyODgwNzU1MCwxNjgwMzA4
+Mzc1LC04MjIwMzgxNTAsLTIxMzE5NjcwMDgsLTE0NTA5NzAzNj
+QsLTIwOTgyMjQzNDddfQ==
 -->
