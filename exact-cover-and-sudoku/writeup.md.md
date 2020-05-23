@@ -36,7 +36,7 @@ Exact cover 문제를 푸는데 가장 많이 사용되는 알고리즘 중 하�
 
 알고리즘은 재귀 함수의 형태로 구현되고, 행렬의 행과 열을 지웠다가 되돌리는 것을 반복하여 해를 구한다.[^algorithm_detail]
 
-이 알고리즘은 경우에 따라 탐색을 더 빠르게 할 수 있는 휴리스틱을 자유롭게 적용할 수 있다는 장점을 갖지만, 문제점도 안고 있다. 우선 exact cover 문제를 나타낸 행렬의 크기가 문제의 전체집합 \\(X\\)의 크기가 커짐에 따라, 그리고 \\(X\\)의 부분집합의 개수가 많아짐에 따라 엄청나게 커진다. 또한, 이러한 행렬은 대부분의 프로그래밍 언어에서 (정적인)배열을 이용하여[^dynamic_array] 구현되는데,
+이 알고리즘은 경우에 따라 탐색을 더 빠르게 할 수 있는 휴리스틱을 자유롭게 적용할 수 있다는 장점을 갖지만, 문제점도 안고 있다. 우선 exact cover 문제를 나타낸 행렬의 크기가 문제의 전체집합 \\(X\\)의 크기가 커짐에 따라, 그리고 \\(X\\)의 부분집합의 개수가 많아짐에 따라 엄청나게 커진다. 또한, 이러한 행렬은 대부분의 프로그래밍 언어에서 (정적인)배열을 이용하여[^dynamic_array] 구현되는데, 행과 열을 지우고 되돌리는 연산은 많은 양의 메모리 복사를 일으키는 등 효율적으로 구현하기 어렵다. 이러한 문제를 해결하기 위해, 연결 리스트와 dancing links라는 테크닉을 사용하는 것이다.
 
 ## 더 읽을거리
 - [Dancing Links 원 논문](https://arxiv.org/pdf/cs/0011047.pdf): 이 글에서 설명하는 Knuth's Algorithm X, Dancing Links, DLX와 그 활용을 다룬 논문이다.
@@ -45,11 +45,11 @@ Exact cover 문제를 푸는데 가장 많이 사용되는 알고리즘 중 하�
 
 [^algorithm_detail]: 알고리즘의 원리를 상세하게 알고 싶다면 [Knuth's Algorithm X 위키피디아 문서](https://en.wikipedia.org/wiki/Knuth%27s_Algorithm_X)를 읽도록 하자.
 
-[^dynamic_array]: 물론 동적 배열 (C++의 `std::vector`, 자바의 `ArrayList`등)을 사용할 수 있지만 여전히 행렬의 행과 열을 지우고 되돌리는 것은 
+[^dynamic_array]: 물론 동적 배열 (C++의 `std::vector`, 자바의 `ArrayList`등)을 사용할 수 있지만 여전히 행렬의 행과 열을 지우고 되돌리는 것은 정적 배열을 사용할 때와 마찬가지로 비효율적이다.
 
 [^boj]: 문제를 풀고 싶다면, 여기 나온 코드를 그대로 복붙하지는 않도록 하자. [치팅으로 탐지](https://www.acmicpc.net/help/rule)되어 며칠동안 정지당할 수도 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkyNzg3Nzg4LC0xMTA1NDE0MDA1LC0xNj
+eyJoaXN0b3J5IjpbODE5NDExMTYwLC0xMTA1NDE0MDA1LC0xNj
 Y1NDYxNDAyLDEwNDQ2MzM3NzksLTEzNjE4NTI4MTIsMTYxNDI1
 NTU0MSwxMDgyMzExMjM2LDUyODgwNzU1MCwxNjgwMzA4Mzc1LC
 04MjIwMzgxNTAsLTIxMzE5NjcwMDgsLTE0NTA5NzAzNjQsLTIw
