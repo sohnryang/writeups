@@ -34,20 +34,18 @@ Exact cover 문제를 푸는데 가장 많이 사용되는 알고리즘 중 하�
 |P|0|1|1|0|
 |E|0|1|0|1|
 
-알고리즘은 재귀 함수의 형태로 구현되고, 행렬의 행과 열을 지웠다가 되돌리는 것을 반보
+알고리즘은 재귀 함수의 형태로 구현되고, 행렬의 행과 열을 지웠다가 되돌리는 것을 반복하여 해를 구한다.[^algorithm_detail]
 
 ## 더 읽을거리
 - [Dancing Links 원 논문](https://arxiv.org/pdf/cs/0011047.pdf): 이 글에서 설명하는 Knuth's Algorithm X, Dancing Links, DLX와 그 활용을 다룬 논문이다.
 - [Wikipedia Exact Cover](https://en.wikipedia.org/wiki/Exact_cover): 
 - [백준 3763번 스도쿠](https://www.acmicpc.net/problem/3763): 백준 온라인 저지에 있는 다른 스도쿠 문제와는 달리, 이 문제는 16 x 16 스도쿠를 풀어야 하기 때문에 여기에 설명된 방법을 사용해야 시간 제한 내에 해결할 수 있다.[^boj]
 
-[^candy]: '캔디 크러쉬 사가'같은 게임을 플레이하는 느낌이 들 것이다.
-
-[^skip]: 정 보기 싫으면 코드 설명으로 넘어가 코드를 읽자.
+[^algorithm_detail]: 알고리즘의 원리를 상세하게 알고 싶다면 [Knuth's Algorithm X 위키피디아 문서](https://en.wikipedia.org/wiki/Knuth%27s_Algorithm_X)를 읽도록 하자.
 
 [^boj]: 문제를 풀고 싶다면, 여기 나온 코드를 그대로 복붙하지는 않도록 하자. [치팅으로 탐지](https://www.acmicpc.net/help/rule)되어 며칠동안 정지당할 수도 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1MzcyMTA5MCwtMTEwNTQxNDAwNSwtMT
+eyJoaXN0b3J5IjpbLTE2ODU5MjAwOSwtMTEwNTQxNDAwNSwtMT
 Y2NTQ2MTQwMiwxMDQ0NjMzNzc5LC0xMzYxODUyODEyLDE2MTQy
 NTU1NDEsMTA4MjMxMTIzNiw1Mjg4MDc1NTAsMTY4MDMwODM3NS
 wtODIyMDM4MTUwLC0yMTMxOTY3MDA4LC0xNDUwOTcwMzY0LC0y
