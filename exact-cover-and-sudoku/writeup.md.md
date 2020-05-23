@@ -41,7 +41,7 @@ Exact cover 문제를 푸는데 가장 많이 사용되는 알고리즘 중 하�
 ## 행렬을 연결 리스트로 구현하기
 [연결 리스트](https://en.wikipedia.org/wiki/Linked_list)는 각 노드가 데이터와 포인터를 가지고, 한 줄로 연결되어 있는 방식으로 데이터를 저장하는 선형 자료 구조이다.
 
-![linked_list]()
+(여기서 끊어서 복붙하기. 그림은 임베딩으로 처리)
 
 ## 더 읽을거리
 - [Dancing Links 원 논문](https://arxiv.org/pdf/cs/0011047.pdf): 이 글에서 설명하는 Knuth's Algorithm X, Dancing Links, DLX와 그 활용을 다룬 논문이다.
@@ -54,7 +54,7 @@ Exact cover 문제를 푸는데 가장 많이 사용되는 알고리즘 중 하�
 
 [^boj]: 문제를 풀고 싶다면, 여기 나온 코드를 그대로 복붙하지는 않도록 하자. [치팅으로 탐지](https://www.acmicpc.net/help/rule)되어 며칠동안 정지당할 수도 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg2ODQ3MjEzLC0xMTA1NDE0MDA1LC0xNj
+eyJoaXN0b3J5IjpbMjIyOTE5Mzc1LC0xMTA1NDE0MDA1LC0xNj
 Y1NDYxNDAyLDEwNDQ2MzM3NzksLTEzNjE4NTI4MTIsMTYxNDI1
 NTU0MSwxMDgyMzExMjM2LDUyODgwNzU1MCwxNjgwMzA4Mzc1LC
 04MjIwMzgxNTAsLTIxMzE5NjcwMDgsLTE0NTA5NzAzNjQsLTIw
