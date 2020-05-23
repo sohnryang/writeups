@@ -65,6 +65,14 @@ Exact cover 문제를 푸는데 가장 많이 사용되는 알고리즘 중 하�
 |**P**|0|1|**1**|0|
 |E|0|1|0|1|
 
+3. 지우고 남은 행렬은 다음과 같다.
+
+||1|2|3|4|
+|--|--|--|--|--|
+|E|0|1|0|1|
+
+4. 행렬에는 `E`행만 남고, 행렬 전체를 지울 수 있는 방법이 존재하지 않는다. 
+
 ## 더 읽을거리
 - [Dancing Links 원 논문](https://arxiv.org/pdf/cs/0011047.pdf): 이 글에서 설명하는 Knuth's Algorithm X, Dancing Links, DLX와 그 활용을 다룬 논문이다.
 - [Wikipedia Exact Cover](https://en.wikipedia.org/wiki/Exact_cover): 
@@ -74,8 +82,8 @@ Exact cover 문제를 푸는데 가장 많이 사용되는 알고리즘 중 하�
 
 [^boj]: 문제를 풀고 싶다면, 여기 나온 코드를 그대로 복붙하지는 않도록 하자. [치팅으로 탐지](https://www.acmicpc.net/help/rule)되어 며칠동안 정지당할 수도 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjkzMjk5NzU0LDEwNDQ2MzM3NzksLTEzNj
-E4NTI4MTIsMTYxNDI1NTU0MSwxMDgyMzExMjM2LDUyODgwNzU1
-MCwxNjgwMzA4Mzc1LC04MjIwMzgxNTAsLTIxMzE5NjcwMDgsLT
-E0NTA5NzAzNjQsLTIwOTgyMjQzNDddfQ==
+eyJoaXN0b3J5IjpbMTI5ODc2Mzg3OCwxMDQ0NjMzNzc5LC0xMz
+YxODUyODEyLDE2MTQyNTU1NDEsMTA4MjMxMTIzNiw1Mjg4MDc1
+NTAsMTY4MDMwODM3NSwtODIyMDM4MTUwLC0yMTMxOTY3MDA4LC
+0xNDUwOTcwMzY0LC0yMDk4MjI0MzQ3XX0=
 -->
