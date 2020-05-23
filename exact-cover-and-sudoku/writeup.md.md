@@ -72,7 +72,9 @@ Exact cover 문제를 푸는데 가장 많이 사용되는 알고리즘 중 하�
 |--|--|--|--|--|
 |E|0|1|0|1|
 
-4. 행렬에는 `E`행만 남고, 행렬 전체를 지울 수 있는 방법이 존재하지 않는다. 따라서 이 분기도 실패하고, 다시 0번째 재귀 호출로 
+4. 행렬에는 `E`행만 남고, 행렬 전체를 지울 수 있는 방법이 존재하지 않는다. 따라서 이 분기도 실패하고, 다시 깊이 0인 재귀 호출로 돌아간다.
+
+### 재귀 호출 (깊이 0)
 
 ## 더 읽을거리
 - [Dancing Links 원 논문](https://arxiv.org/pdf/cs/0011047.pdf): 이 글에서 설명하는 Knuth's Algorithm X, Dancing Links, DLX와 그 활용을 다룬 논문이다.
@@ -83,8 +85,9 @@ Exact cover 문제를 푸는데 가장 많이 사용되는 알고리즘 중 하�
 
 [^boj]: 문제를 풀고 싶다면, 여기 나온 코드를 그대로 복붙하지는 않도록 하자. [치팅으로 탐지](https://www.acmicpc.net/help/rule)되어 며칠동안 정지당할 수도 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjU0NjE0MDIsMTA0NDYzMzc3OSwtMT
-M2MTg1MjgxMiwxNjE0MjU1NTQxLDEwODIzMTEyMzYsNTI4ODA3
-NTUwLDE2ODAzMDgzNzUsLTgyMjAzODE1MCwtMjEzMTk2NzAwOC
-wtMTQ1MDk3MDM2NCwtMjA5ODIyNDM0N119
+eyJoaXN0b3J5IjpbNjQyOTMzNTY0LC0xNjY1NDYxNDAyLDEwND
+Q2MzM3NzksLTEzNjE4NTI4MTIsMTYxNDI1NTU0MSwxMDgyMzEx
+MjM2LDUyODgwNzU1MCwxNjgwMzA4Mzc1LC04MjIwMzgxNTAsLT
+IxMzE5NjcwMDgsLTE0NTA5NzAzNjQsLTIwOTgyMjQzNDddfQ==
+
 -->
