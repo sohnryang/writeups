@@ -76,6 +76,7 @@ Exact cover 문제를 푸는데 가장 많이 사용되는 알고리즘 중 하�
 
 ### 재귀 호출 (깊이 0)
 
+
 ## 더 읽을거리
 - [Dancing Links 원 논문](https://arxiv.org/pdf/cs/0011047.pdf): 이 글에서 설명하는 Knuth's Algorithm X, Dancing Links, DLX와 그 활용을 다룬 논문이다.
 - [Wikipedia Exact Cover](https://en.wikipedia.org/wiki/Exact_cover): 
@@ -87,7 +88,7 @@ Exact cover 문제를 푸는데 가장 많이 사용되는 알고리즘 중 하�
 
 [^boj]: 문제를 풀고 싶다면, 여기 나온 코드를 그대로 복붙하지는 않도록 하자. [치팅으로 탐지](https://www.acmicpc.net/help/rule)되어 며칠동안 정지당할 수도 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mjg1NzIyNTksLTE2NjU0NjE0MDIsMT
+eyJoaXN0b3J5IjpbLTExMDU0MTQwMDUsLTE2NjU0NjE0MDIsMT
 A0NDYzMzc3OSwtMTM2MTg1MjgxMiwxNjE0MjU1NTQxLDEwODIz
 MTEyMzYsNTI4ODA3NTUwLDE2ODAzMDgzNzUsLTgyMjAzODE1MC
 wtMjEzMTk2NzAwOCwtMTQ1MDk3MDM2NCwtMjA5ODIyNDM0N119
