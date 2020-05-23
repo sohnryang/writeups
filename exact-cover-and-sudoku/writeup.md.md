@@ -55,7 +55,7 @@ Exact cover 문제를 푸는데 가장 많이 사용되는 알고리즘 중 하�
 3. 행렬에는 행은 더이상 남아 있지 않지만, 2열이 남아 있고, 2열은 지울 수 있는 방법이 없다. 따라서 이 분기는 실패한다. 부분적인 답에서 `N`을 제거하고, 깊이 0인 재귀 호출로 돌아간다.
 
 ### 재귀 호출 (깊이 0)
-1. `N
+1. `N`행 다음으로 시도할 행은 `O`행이다.
 1. 이제 `O`행을 부분적인 답에 추가한다.
 2. `O`행에는 1이 1, 3열에 있고, 이 열들에 1을 가진 행들은 `N`, `P`이다. 이 행과 열들을 모두 지운다.
 
@@ -83,8 +83,8 @@ Exact cover 문제를 푸는데 가장 많이 사용되는 알고리즘 중 하�
 
 [^boj]: 문제를 풀고 싶다면, 여기 나온 코드를 그대로 복붙하지는 않도록 하자. [치팅으로 탐지](https://www.acmicpc.net/help/rule)되어 며칠동안 정지당할 수도 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIxNTIxNjAwLDEwNDQ2MzM3NzksLTEzNj
-E4NTI4MTIsMTYxNDI1NTU0MSwxMDgyMzExMjM2LDUyODgwNzU1
-MCwxNjgwMzA4Mzc1LC04MjIwMzgxNTAsLTIxMzE5NjcwMDgsLT
-E0NTA5NzAzNjQsLTIwOTgyMjQzNDddfQ==
+eyJoaXN0b3J5IjpbLTE2NjU0NjE0MDIsMTA0NDYzMzc3OSwtMT
+M2MTg1MjgxMiwxNjE0MjU1NTQxLDEwODIzMTEyMzYsNTI4ODA3
+NTUwLDE2ODAzMDgzNzUsLTgyMjAzODE1MCwtMjEzMTk2NzAwOC
+wtMTQ1MDk3MDM2NCwtMjA5ODIyNDM0N119
 -->
